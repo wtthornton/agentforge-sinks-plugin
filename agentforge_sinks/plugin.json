@@ -1,0 +1,21 @@
+{
+  "schema_version": "1",
+  "id": "sinks-test",
+  "display_name": "Sinks Test",
+  "version": "1.0.0",
+  "namespace": "project.sinks-test",
+  "backend": {
+    "entry_point": "agentforge_sinks.plugin:register",
+    "routes_prefix": "/api/sinks-test",
+    "resource_providers": []
+  },
+  "agents": [
+    {"name": "sinks-test-agent", "path": "agentforge_sinks/agents/sinks_test_agent"}
+  ],
+  "frontend": {
+    "remote_url": "",
+    "nav_label": "Sinks Test",
+    "nav_icon": "Database",
+    "route": "/sinks-test"
+  }
+}
