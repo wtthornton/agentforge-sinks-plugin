@@ -3,7 +3,6 @@ name: sinks-test-agent
 namespace: project.sinks-test.sinks-test-agent
 description: Test agent for AgentForge event sinks rig — emit events, verify sink delivery.
 keywords: [sinks, events, test]
-runner: agentforge_sinks.agents.sinks_test_agent.runner:SinksRunner
 ---
 
 # Sinks Test Agent
